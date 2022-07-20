@@ -8,6 +8,7 @@ namespace sopifyDemo.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<Products> items{ get; set; }
-       
+        public DbSet<Users> shopifyUsers{ get; set; }
+
     }
 }
